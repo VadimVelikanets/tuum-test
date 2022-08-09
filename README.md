@@ -1,6 +1,11 @@
-# Getting Started with Create React App
+# Tuum test
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Test project was created using React, Typescript, Tailwind CSS. I don't use here State manager or Context, because it's not big project.
+
+## Analysis on what impacts your bundle size the most and what i’ve done to optimise it
+
+To save bundle size i use async import countries data. I also use HOC Memo and hook useCallback to remove unnecessary rerenders. 
+
 
 ## Available Scripts
 
